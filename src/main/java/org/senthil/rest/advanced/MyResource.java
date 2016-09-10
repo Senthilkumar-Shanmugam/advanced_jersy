@@ -16,4 +16,11 @@ public class MyResource {
 		count ++;
 		return "it works is called >>"+count+" times";
 	}
+	
+	
+	@GET
+	@Path("/hello")
+	public String sayHello(){
+		return "says hello";
+	}
 }
