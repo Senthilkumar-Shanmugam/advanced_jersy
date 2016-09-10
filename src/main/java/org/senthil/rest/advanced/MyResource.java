@@ -21,7 +21,6 @@ public class MyResource {
 	@GET
 	@Path("/hello")
 	public String sayHello(){
-		return "says hello"+"from master"+" branch add";
-
+		return "says hello"+"testing conflicts in branch";
 	}
 }
