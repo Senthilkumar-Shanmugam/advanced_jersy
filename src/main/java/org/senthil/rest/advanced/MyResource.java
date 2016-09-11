@@ -21,6 +21,7 @@ public class MyResource {
 	@GET
 	@Path("/hello")
 	public String sayHello(){
-		return "says hello"+"testing conflicts this is from master";
+
+		return "says hello"+"testing conflicts fixed";
 	}
 }
